@@ -168,8 +168,49 @@
   outline-offset: 5px;
   box-shadow: 5px -5px 5px aqua;
   cursor: pointer;
+  cursor: not-allowed;
 }
 
 h1 {
   text-shadow: 2px -3px 7px red;
+}
+
+.plans_card:nth-child(2) {
+  visibility: hidden;
+}
+
+.hero_text {
+  background: grey;
+  max-width: max-content;
+  width: 500px;
+  hyphens: manual;
+  word-spacing: 4px;
+  overflow: auto;
+  resize: horizontal;
+}
+
+.overflow {
+  overflow-wrap: anywhere;
+}
+
+.hero_title {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  height: 65px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.plans_card:nth-child(1) > .card {
+  background: #77b8f087;
+  padding-block: 10px;
+  padding-inline: 10px;
+}
+
+p {
+  background: yellow;
+  text-size-adjust: 300%;
+  font-size-adjust: 1.0;
 }
