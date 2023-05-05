@@ -27,6 +27,26 @@
             </main>
         </div>
 
+        <div class="page_block">
+            <div class="calc">
+                <table class="table">
+                    <caption>My table</caption>
+                    <tbody>
+                        {{#each footer}}
+                        <tr>
+                            {{#each links}}
+                            <td>
+                                {{text}}
+                            </td>
+                            {{/each}}
+                            <td></td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
         <p id="test">Компанія ШЕВЧЕНКІВСЬКИЙ ВІДДІЛ ДЕРЖАВНОЇ РЕЄСТРАЦІЇ АКТІВ ЦИВІЛЬНОГО СТАНУ У МІСТІ КИЄВІ
             ЦЕНТРАЛЬНОГО
             МІЖРЕГІОНАЛЬНОГО УПРАВЛІННЯ МІНІСТЕРСТВА ЮСТИЦІЇ (М. КИЇВ) зареєстрована 26.10.2001 за юридичною адресою
