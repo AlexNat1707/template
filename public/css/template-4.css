@@ -1,7 +1,7 @@
 :root {
   --space-m: 12px;
-  --space-l: 24px;
   --space-xm: 16px;
+  --space-l: 24px;
   --space-b: 36px;
 
   --size-d: 16px;
@@ -9,7 +9,7 @@
   --size-l: 20px;
 
   --color-border: #DEE2E6;
-  --color-primary: blue;
+  --color-primary: rgb(46, 46, 255);
   --color-white: white;
   --border-radius: 12px;
   --color-title:  #212529;
@@ -17,6 +17,8 @@
 
   --weight-title: 500px;
   --weight-text: 400px;
+
+  --page-width: 1920px;
 }
 
 /* ====================================== */
